@@ -87,19 +87,110 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*--BASE STYLES--*/
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  background-color: rgba(236, 160, 99, 0.2);
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+header .container {
+  flex-flow: row wrap;
+  margin: 30px 0 10px;;
+  width: 89%;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/blob-quote.png");
+  width: 87%;
+  margin: 30px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  margin-left: 16px;
+  font-size: 16px;
+
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  width: 92%;
+  margin: 50px 0;
+}
+
+#gallery {
+  padding: 0 0 20px;
+}
+
+#about,
+#contact {
+  background-color: #ECA063;
+  border-radius: 50px 50px 0 0 ;
+}
+
+#about h2 {
+  width: 44%;
+  margin: 20px 0 0;
+}
+
+#contact {
+  border-radius: 0;
+}
+
+
+/* main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 #gallery img {
   width: 100%;
+  margin: 20px 0;
 }
+
 
 li img {
   padding: 20px;
   font-size: 30px;
   width: 25px;
-  text-align: center;
   text-decoration: none;
 }
 
-
+#about img {
+  width: 87%;
+}
 
 
 
