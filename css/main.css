@@ -111,8 +111,27 @@ footer {
 
 header .container {
   flex-flow: row wrap;
-  margin: 30px 0 10px;;
+  margin: 20px 0 0;
   width: 89%;
+}
+
+header img {
+  width: 40px;
+  height: 46px;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 8px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  width: 92%;
+  margin: 50px 0;
 }
 
 span {
@@ -126,38 +145,52 @@ span {
   background-position: center;
 }
 
-h1 {
-  margin-left: 16px;
-  font-size: 16px;
-
-}
-
-h2 {
-  font-size: 20px;
-  text-align: center;
-  width: 92%;
-  margin: 50px 0;
+span h2 {
+  max-width: 288px;
 }
 
 #gallery {
   padding: 0 0 20px;
 }
 
+#gallery img {
+  width: 87%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
 #about,
 #contact {
-  background-color: #ECA063;
+  background-color: rgba(212, 105, 52, 0.5);
   border-radius: 50px 50px 0 0 ;
 }
 
 #about h2 {
   width: 44%;
-  margin: 20px 0 0;
+  margin: 30px 0 0;
+}
+
+#about h4 {
+  width: 87%;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 500px;
+}
+
+#about img {
+  width: 87%;
+  padding: 35px 0 50px;
+  max-width: 500px;
 }
 
 #contact {
   border-radius: 0;
 }
 
+#contact h2 {
+  width: 90;
+  margin: 0;
+}
 
 /* main {
   display: flex;
@@ -170,27 +203,18 @@ h2 {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  margin: 0;
+  margin: 20px 0;
   padding: 0;
 }
 
-
-#gallery img {
-  width: 100%;
-  margin: 20px 0;
-}
-
-
 li img {
   padding: 20px;
-  font-size: 30px;
+  /* font-size: 30px; */
   width: 25px;
   text-decoration: none;
 }
 
-#about img {
-  width: 87%;
-}
+
 
 
 
@@ -282,9 +306,75 @@ li img {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+
+
+@media only screen and (min-width: 768px) {
+  /*--TABLET STYLES--*/
+
+  header .container {
+    margin: 40px 0 10px;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 0 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  header img {
+    width: 70px;
+    height: 80px;
+    margin: 0 20px;
+  }
+
+  span {
+    /* width: 62%; */
+    margin: 50px 0;
+    background-size: 474px;    
+  }
+
+  span h2 {
+  margin: 50px 0;
+  max-width: 432px;
+  }
+
+  #about h2 {
+    /* width: 44%; */
+    margin: 60px 0 15px;
+  }
+  
+  #about h4 {
+    width: 62%;
+    font-size: 20px;
+    max-width: 800px;
+  }
+  
+  #about img {
+    width: 62%;
+    padding: 35px 0 60px;
+    max-width: 800px;
+  }
+
+  li img {
+    padding: 35px;
+    width: 40px;
+  }
+
 }
+
+@media only screen and (min-width: 1200px) {
+  /*--DESKTOP STYLES--*/
+
+  
+  
+}
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
