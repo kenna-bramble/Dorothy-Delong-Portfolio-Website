@@ -207,10 +207,13 @@ h3 {
 footer {
   flex-flow: column wrap;
   width: 100%;
+  max-width: 1200px;
+
 }
 
 #contact {
   border-radius: 0;
+  
   
 }
 
