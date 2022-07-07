@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -134,14 +134,14 @@ header img {
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
   margin: 0 8px;
 }
 
 h2 {
   font-family: 'Martel', serif;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
   width: 80%;
   line-height: 1.75;
@@ -161,7 +161,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;
   width: 92%;
   margin: 50px 0;
@@ -193,7 +193,7 @@ h3 {
 #about h4 {
   font-family: 'Martel', serif;
   width: 87%;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   max-width: 500px;
 }
@@ -213,8 +213,6 @@ footer {
 
 #contact {
   border-radius: 0;
-  
-  
 }
 
 #contact h3 {
@@ -232,7 +230,6 @@ footer {
 
 li img {
   padding: 20px;
-  /* font-size: 30px; */
   width: 25px;
   text-decoration: none;
 }
@@ -341,18 +338,17 @@ li img {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 1.5em;
     margin: 0 15px;
   }
 
   h2 {
-    font-size: 24px;
-    /* margin: 50px 0; */
+    font-size: 1.5em;
     max-width: 510px;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 1.875em;
   }
 
   header img {
@@ -363,18 +359,16 @@ li img {
 
   .blob {
     width: 90%;
-    /* margin: 50px 0; */
     background-size: 350px;    
   }
 
   #about h3 {
-    /* width: 44%; */
     margin: 60px 0 15px;
   }
   
   #about h4 {
     width: 80%;
-    font-size: 20px;
+    font-size: 1.25em;
     max-width: 750px;
   }
   
@@ -404,7 +398,7 @@ li img {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 2.5em;
     margin: 0 45px;
   }
 
@@ -415,7 +409,7 @@ li img {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     max-width: 700px;
     width: 50%;
   }
