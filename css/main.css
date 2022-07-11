@@ -193,10 +193,12 @@ h3 {
   box-shadow: 0 20px 30px #A5928F;
 }
 
+#about {
+  background-color: rgba(212, 105, 52, 0.5);
+  border-radius: 50px;
+}
 #about,
 #contact {
-  background-color: rgba(212, 105, 52, 0.5);
-  border-radius: 50px 50px 0 0 ;
   width: 87%;
   display: flex;
   justify-content: center;
@@ -232,6 +234,7 @@ footer {
   flex-flow: column wrap;
   width: 100%;
   max-width: 1200px;
+  padding: 100px 0 0 0;
 
 }
 
@@ -428,10 +431,9 @@ li img {
     flex-direction: row-reverse;
     justify-content: space-around;
     padding: 30px 0;
+    
   }
 
-
-  
   #about figure {
     width: 40%;
     padding: 35px 0;
