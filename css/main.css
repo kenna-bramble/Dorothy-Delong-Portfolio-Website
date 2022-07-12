@@ -243,6 +243,61 @@ h3 {
 
 }
 
+/*-- Image Title Properties --*/
+
+#image-titles {
+  width: 100%;
+  overflow:hidden;
+}
+#image-titles .titles {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s title infinite;
+}
+
+#image-titles .titles h3 {
+  width: 20%;
+  float: left;
+  margin: 20px 0;
+}
+
+.title {
+  font-style: italic;
+}
+
+@keyframes title {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+
+}
+
 #about {
   background-color: rgba(212, 105, 52, 0.5);
   border-radius: 50px;
